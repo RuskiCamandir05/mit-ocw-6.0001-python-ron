@@ -1,0 +1,49 @@
+- Computer performs calcs and remembers the results
+-Declarative Knowledge - statements of fact (e.g. the paint is yellow)
+-imperative Knowledge - "how to" knowledge (e.g. take paint brush, stick bristles in yellow paint, put brush with paint on wall until fully yellow, repeat)
+
+Algorithm ~ a finite list of instructions that describe a computation that when executed on a set of inputs will proceed through a set of well-defined states and eventually produce an output
+
+Fixed-program computer ~ designed to do very specific things, like specified mathematical problems
+Stored-program computer ~ Stores and manipulates a sequence of instructions, and has components that will execute any instruction in that sequence
+
+Von Neumann - data and instructions live in memory. 
+Program counter - points to particular location in memory, and computation starts be executing the instruction at that point
+Flow of Control - instructions read linearly until branch 
+
+Universal Turing Machine - unbounded memory in form of tape where you could write 0 or 1. 
+Church-turing thesis: If a function is computable, a turing machine can be programmed to compute it
+
+Not all problems are computable. 
+Halting problem - impossible to write a program that given an arbitrary program P, prints true IFF P will run forever. 
+ 
+Turing Completeness - programming language that can be used to simulate universal turing machine
+
+
+Python Primitive Constructs: literals (e.g. numbers or strings) and infix operators (e.g. + and / )
+Syntax: the way in which the string of chars and symbols are formed
+static semantics: what syntax has meaning and value. I.e. literal operator literal is valid syntactically but contains a semantic error in the use of 123/'abc'
+Semantics: meaning of a syntactically correct  string of symbols with no static semantic errors. Programming languages have only one correct semantic meaning. 
+
+
+FINGER EXCERCISE:
+algorithm for driving between
+two destinations. Write it the way you
+would for a person, and then imagine
+what would happen if that person were as
+stupid as a computer, and executed the
+algorithm exactly as written. How many
+traffic tickets might that person get?
+
+
+1) Get into the car. 
+2) put key in ignition to start the car. 
+3) follow direction on the map to get there.
+4) park the vehicle and exit safely
+
+If computer - get into car is vague (may break window to get in, may only put one finger in the car, etc.)
+ - Put key in ignition vague - (which key? where is ignition? turn it or not? car may not even start).
+ - computer doesn't know how to get out of park or if to change to drive or reverse. 
+- follow directions on map vague (follow them by looking at the instructions or by driving?)
+- doesn't know speed limit? doesn't know to drive on the road or straight through grass?
+
